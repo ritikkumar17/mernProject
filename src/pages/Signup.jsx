@@ -22,7 +22,8 @@ function SignUp() {
         // console.log(formdata.email)
         // console.log(formdata.pass)
         try{
-              const response = await fetch("http://localhost:3000/api/auth/signup",
+              // const response = await fetch("http://localhost:3000/api/auth/signup",
+              const response = await fetch("https://nodebackend-x4m5.onrender.com/api/auth/signup",
                 {
                   method:"POST",
                   headers:{

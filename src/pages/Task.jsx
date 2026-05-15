@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
 import { useNavigate, useParams } from "react-router-dom"
 
-const API = "http://localhost:3000/api"
-
+// const API = "http://localhost:3000/api"
+const API = "https://nodebackend-x4m5.onrender.com/api"
 function Task() {
 
   const { id } = useParams()

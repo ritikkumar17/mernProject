@@ -22,7 +22,8 @@ function Login() {
         // console.log(formDetail.pass)
 
         try{
-            const response = await fetch("http://localhost:3000/api/auth/login",
+            // const response = await fetch("http://localhost:3000/api/auth/login",
+            const response = await fetch("https://nodebackend-x4m5.onrender.com/api/auth/login",
               {
                 method:"POST",
                 headers:{
